@@ -50,13 +50,7 @@ Open `rag_pipeline.ipynb` and run the cells in order.
 ├── rag_pipeline.ipynb   # full pipeline: ingestion, retrieval, generation
 ├── requirements.txt
 ├── data/
-│   └── pdfs/            # put your PDFs here (not tracked by git)
+│   └── pdfs/            # put your PDFs here 
 └── README.md
 ```
-
-## Limitations and next steps
-
-- Retrieval is pure vector search; hybrid search (BM25 + embeddings) could improve recall
-- No reranking step yet
-- No automated evaluation of answer quality (e.g. RAGAS)
 
