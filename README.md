@@ -30,8 +30,8 @@ Python · LangChain · Sentence-Transformers · ChromaDB · OpenAI API / Groq AP
 ## Setup
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/Isaac-Naveed/RAG_Pipeline.git
+cd RAG_Pipeline
 pip install -r requirements.txt
 ```
 
@@ -59,4 +59,4 @@ Open `rag_pipeline.ipynb` and run the cells in order.
 - Retrieval is pure vector search; hybrid search (BM25 + embeddings) could improve recall
 - No reranking step yet
 - No automated evaluation of answer quality (e.g. RAGAS)
-- Wrap the pipeline in a simple UI (Streamlit or Gradio)
+
